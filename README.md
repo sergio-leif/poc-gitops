@@ -17,5 +17,5 @@ Execute the following commands in `terraform/aws` directory:
 ```
 terraform init
 terraform plan
-terraform apply
+terraform apply -var variable_name="value"
 ```
